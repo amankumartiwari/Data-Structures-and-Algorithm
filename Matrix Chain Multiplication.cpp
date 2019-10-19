@@ -8,10 +8,7 @@ using namespace std;
 int MatrixChainOrder(int p[], int n) 
 { 
 
-	/* For simplicity of the program, one 
-	extra row and one extra column are 
-	allocated in m[][]. 0th row and 0th 
-	column of m[][] are not used */
+	
 	int m[n][n]; 
 
 	int i, j, k, L, q; 

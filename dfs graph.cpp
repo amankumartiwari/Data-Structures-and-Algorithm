@@ -53,8 +53,6 @@ void Graph::DFSUtil(int v, bool visited[])
 			DFSUtil(*i, visited); 
 } 
 
-// DFS traversal of the vertices reachable from v. 
-// It uses recursive DFSUtil() 
 void Graph::DFS(int v) 
 { 
 	// Mark all the vertices as not visited 
@@ -62,8 +60,6 @@ void Graph::DFS(int v)
 	for (int i = 0; i < V; i++) 
 		visited[i] = false; 
 
-	// Call the recursive helper function 
-	// to print DFS traversal 
 	DFSUtil(v, visited); 
 } 
 

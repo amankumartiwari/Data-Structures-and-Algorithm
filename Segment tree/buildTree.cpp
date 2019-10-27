@@ -2,7 +2,7 @@
 using namespace std;
 
 void buildTree(int* arr , int *tree , int start, int last, int treeNode){
-
+// base case wfor leaf node
 if(start==last){
     tree[treeNode] = arr[start];
     return;

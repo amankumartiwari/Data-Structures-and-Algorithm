@@ -1,4 +1,5 @@
 // C++ program to print largest contiguous array sum 
+//KADANE ALGORITHM
 #include<iostream> 
 #include<climits> 
 using namespace std; 

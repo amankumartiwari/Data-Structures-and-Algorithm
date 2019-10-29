@@ -11,8 +11,7 @@ void edge(int a, int b)
 { 
 	g[a].pb(b); 
 
-	// for undirected graph add this line 
-	// g[b].pb(a); 
+	
 } 
 
 void bfs(int u) 

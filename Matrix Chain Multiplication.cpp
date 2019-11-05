@@ -7,7 +7,6 @@ using namespace std;
 // for i = 1..n 
 int MatrixChainOrder(int p[], int n) 
 { 
-
 	
 	int m[n][n]; 
 

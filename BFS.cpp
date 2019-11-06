@@ -38,7 +38,6 @@ void bfs(int u)
 	} 
 } 
 
-// Driver code 
 int main() 
 { 
 	int n, e; 

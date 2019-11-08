@@ -28,7 +28,7 @@ void bfs(int u)
 
 		cout << f << " "; 
 
-		// Enqueue all adjacent of f and mark them visited 
+ 		// Enqueue all adjacent of f and mark them visited 
 		for (auto i = g[f].begin(); i != g[f].end(); i++) { 
 			if (!v[*i]) { 
 				q.push(*i); 

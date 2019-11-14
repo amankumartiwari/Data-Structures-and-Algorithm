@@ -26,8 +26,7 @@ struct Graph* createGraph(int V, int E)
 	graph->edge = new Edge[E]; 
 	return graph; 
 } 
-
-// A utility function used to print the solution 
+ 
 void printArr(int dist[], int n) 
 { 
 	printf("Vertex Distance from Source\n"); 
